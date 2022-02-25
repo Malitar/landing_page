@@ -3,22 +3,63 @@
 
 <head>
      <meta charset="utf-8" />
-     <title>App</title>
+     <title>Odin Project Landing Page</title>
      <meta name="viewport" content="width=device-width, initial-scale=1" />
      <link rel="stylesheet" href="./public/src/all.css" />
 </head>
 
 <body>
-     <h1>Hello!</h1>
-     <p class="section1">
-          I'm baby brunch vape locavore, literally salvia hoodie edison bulb ugh everyday carry mumblecore actually. Adaptogen brunch pitchfork vice, single-origin coffee portland forage yuccie lumbersexual offal gastropub. Palo santo helvetica put a bird on it vegan street art jianbing adaptogen beard literally cronut polaroid poke. YOLO wayfarers microdosing +1 venmo mustache. Chicharrones cardigan actually, live-edge crucifix chillwave tilde church-key readymade literally enamel pin gochujang. Pickled echo park man bun leggings banjo. Pork belly normcore vice salvia synth cloud bread polaroid green juice farm-to-table shaman. Tote bag waistcoat butcher, banh mi hella ramps hell of blog flannel flexitarian edison bulb. Sartorial pour-over cronut asymmetrical pitchfork gluten-free meditation church-key roof party bicycle rights. Fingerstache readymade drinking vinegar tumblr.
-     </p>
-     <p class="section2">
-          I'm baby brunch vape locavore, literally salvia hoodie edison bulb ugh everyday carry mumblecore actually. Adaptogen brunch pitchfork vice, single-origin coffee portland forage yuccie lumbersexual offal gastropub. Palo santo helvetica put a bird on it vegan street art jianbing adaptogen beard literally cronut polaroid poke. YOLO wayfarers microdosing +1 venmo mustache. Chicharrones cardigan actually, live-edge crucifix chillwave tilde church-key readymade literally enamel pin gochujang. Pickled echo park man bun leggings banjo. Pork belly normcore vice salvia synth cloud bread polaroid green juice farm-to-table shaman. Tote bag waistcoat butcher, banh mi hella ramps hell of blog flannel flexitarian edison bulb. Sartorial pour-over cronut asymmetrical pitchfork gluten-free meditation church-key roof party bicycle rights. Fingerstache readymade drinking vinegar tumblr.
-     </p>
-     <p class="section3">
-          I'm baby brunch vape locavore, literally salvia hoodie edison bulb ugh everyday carry mumblecore actually. Adaptogen brunch pitchfork vice, single-origin coffee portland forage yuccie lumbersexual offal gastropub. Palo santo helvetica put a bird on it vegan street art jianbing adaptogen beard literally cronut polaroid poke. YOLO wayfarers microdosing +1 venmo mustache. Chicharrones cardigan actually, live-edge crucifix chillwave tilde church-key readymade literally enamel pin gochujang. Pickled echo park man bun leggings banjo. Pork belly normcore vice salvia synth cloud bread polaroid green juice farm-to-table shaman. Tote bag waistcoat butcher, banh mi hella ramps hell of blog flannel flexitarian edison bulb. Sartorial pour-over cronut asymmetrical pitchfork gluten-free meditation church-key roof party bicycle rights. Fingerstache readymade drinking vinegar tumblr.
-     </p>
+     <!-- Header Section -->
+     <header>
+          <nav>
+               <div class="logo">
+                    <a href="#">
+                         Header Logo
+                    </a>
+               </div>
+               <div class="links">
+                    <ul>
+                         <li>
+                              <a href="#">
+                                   header link one
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#">
+                                   header link two
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#">
+                                   header link three
+                              </a>
+                         </li>
+                    </ul>
+               </div>
+          </nav>
+
+          <div class="hero">
+               <div class="container">
+                    <div class="hero-main">This website is awesome</div>
+                    <div class="hero-second">Vaporware live-edge etsy, XOXO art party authentic chillwave tumeric distillery mlkshk hammock keffiyeh tattooed YOLO. Roof party subway tile taxidermy keffiyeh letterpress craft beer PBR&B semiotics.</div>
+                    <button>Sign up</button>
+               </div>
+               
+
+          </div>
+     </header>
+
+     <!-- Main Section -->
+
+     <!-- Footer Section -->
+     <footer>
+          <div class="footer-content">
+               <p>
+                    Copyright @ The Odin Project 2022
+               </p>
+          </div>
+     </footer>
+
 </body>
 
 </html>
