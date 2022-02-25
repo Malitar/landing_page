@@ -1,8 +1,21 @@
 
 header{
+     background-color: $c_background;
+     padding: 1rem 0 2rem;
+     .container {
+          max-width: 100%;
+          margin-right: auto;
+          margin-left: auto;
+          @media screen and(min-width: $sm) {
+               max-width: 75%;
+          }
+     }
      nav {
           display: flex;
           align-items: center;
+          justify-content: space-between;
+
+          margin-bottom: 1rem;
      }
      .links {
           ul {
@@ -14,6 +27,23 @@ header{
                    text-decoration: none;
               }
           }
-          
+     }
+
+     .hero {
+          display: flex;
+          gap: 2rem;
+
+          .content-left {
+               width: 40%;
+          }
+          .content-right{
+               width: 60%;
+               height: auto;
+               background-color: $c_accent;
+
+               display: flex;
+               align-items: center;
+               justify-content: center;
+          }
      }
 }
