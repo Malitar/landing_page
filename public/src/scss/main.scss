@@ -1,17 +1,4 @@
 * {
-     background-color: blue;
-
-}
-
-html {
-     color: beige;
-     .section1 {
-          font-family: $fjosy_thin;
-     }
-     .section2{
-          font-family: $fjosy_regular;
-     }
-     .section3{
-          font-family: $fjosy_semibold;
-     }
+     background-color: $c_background;
+     box-sizing: border-box;
 }
