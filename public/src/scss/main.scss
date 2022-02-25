@@ -8,5 +8,40 @@ main {
           &:nth-child(even) {
                background-color: $c_accent;
           }
+          .heading {
+               text-align: center;
+               padding: 2rem 0;
+          }
+
+          .content-block {
+               display: flex;
+               gap: 16px;
+               .content-inner {
+                    display: block;
+                    .content-img {
+                         display: block;
+                         height: 100%;
+                    }
+                    img {
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+                         border: 1px solid black;
+                         border-radius: 10px;
+                         height: auto;
+                         margin-bottom: 1rem;
+                         &::before {
+                              text-align: center;
+                         }
+                         &::after {
+                              content: '';
+                              padding-top: 100%;
+                         }
+                    }
+                    .content-text {
+                         text-align: center;
+                    }
+               }
+          }
      }
 }
