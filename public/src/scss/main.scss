@@ -1,4 +1,12 @@
-* {
-     background-color: $c_background;
-     box-sizing: border-box;
+.placeholder{
+     height: 70vh;
+}
+
+main {
+     .block {
+          background-color: $c_primary;
+          &:nth-child(even) {
+               background-color: $c_accent;
+          }
+     }
 }
