@@ -15,11 +15,11 @@ module.exports = function (grunt) {
           watch: {
                options: {
                     livereload: true,
+                    compress: true
                },
                sass: {
                   files: [
                     'public/src/scss/*.scss'
-                    //'public/src/scss/main.scss'
                     ],  
                     tasks: ['sass']
                },  
@@ -32,7 +32,7 @@ module.exports = function (grunt) {
                },
                dist: {
                     files: {
-                         'public/src/all.css': 'public/src/scss/all.scss'
+                         'public/src/all.min.css': 'public/src/scss/all.scss'
                     }
                },
                

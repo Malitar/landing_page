@@ -5,7 +5,7 @@
      <meta charset="utf-8" />
      <title>Odin Project Landing Page</title>
      <meta name="viewport" content="width=device-width, initial-scale=1" />
-     <link rel="stylesheet" href="./public/src/all.css" />
+     <link rel="stylesheet" href="./public/src/all.min.css" />
 </head>
 
 <body>
