@@ -1,8 +1,20 @@
+/* *******************
+*    HEADINGS
+******************* */
 h1 {
      font-family: $fjosy_semibold;
      font-size: $f_heading_1;
 }
+h2 {
+     font-family: $fjosy_semibold;
+     font-size: $f_heading_2;
+}
 
+/* *******************
+*    OTHER FONT
+*    ELEMENTS
+******************* */
 p {
      font-family: $fjosy_thin;
+     font-size: $f_small;
 }
