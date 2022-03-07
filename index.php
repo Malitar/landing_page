@@ -92,14 +92,15 @@
           <section>
                <div class="block">
                     <div class="container">
-                         <figure class="content-quote">
+                         <div class="content-block">
+                              <figure class="content-quote">
 
-                              <blockquote>Aesthetic bespoke skateboard sustainable bitters gluten-free celiac. Biodiesel flexitarian humblebrag quinoa plaid. Brunch salvia put a bird on it fashion axe.</blockquote>
-                              <figcaption div class="content-quote-author quote">
-                                   ~ wasd
-                              </figcaption>
-                         </figure>
-
+                                   <blockquote>Aesthetic bespoke skateboard sustainable bitters gluten-free celiac. Biodiesel flexitarian humblebrag quinoa plaid. Brunch salvia put a bird on it fashion axe.</blockquote>
+                                   <figcaption div class="content-quote-author quote">
+                                        Thor, God of Thunder
+                                   </figcaption>
+                              </figure>
+                         </div>
                     </div>
 
           </section>
@@ -107,15 +108,15 @@
                <div class="block">
                     <div class="container">
                          <div class="cta">
-                              <div class="content-text">
+                              <div class="cta-text">
                                    <h3>Call to action! It's time!</h3>
                                    <p>Sign up for our product by clicking that button right over there!</p>
                               </div>
                               <button class="btn-secondary">Sign up</button>
-                         
+
                          </div>
                     </div>
-                    
+
                </div>
           </section>
 

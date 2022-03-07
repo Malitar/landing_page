@@ -15,6 +15,7 @@ main {
           .content-block {
                display: flex;
                gap: 16px;
+               padding: 0 15%;
                .content-inner {
                     display: block;
                     .content-img {
@@ -45,17 +46,42 @@ main {
      }
 
      /* ********
-     *    2nd Section
+     *    Quote Section
      ********* */
      .content-quote {
-          padding-right: 15%;
-          padding-left: 15%;
+          //padding-right: 15%;
+          //padding-left: 15%;
           margin-right: auto;
           margin-left: auto;
           display: flex;
           flex-direction: column;
+
+          blockquote {
+               font-style: italic;
+               font-size: $f_bigger;
+               padding: 0 8px;
+          }
+
           .content-quote-author {
                align-self: flex-end;
+               margin-top: 16px;
+               &::before {
+                    content: '- ';
+
+               }
           }
      }
+
+     /* ********
+     *    CTA Section
+     ********* */
+     .cta {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          background-color: $c_accent;
+          border-radius: 15px;
+          height: 200px;
+     }
+
 }
