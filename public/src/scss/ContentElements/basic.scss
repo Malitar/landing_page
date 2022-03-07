@@ -20,8 +20,49 @@
 .block {
      padding-top: 5rem;
      padding-bottom: 5rem;
+     padding: 5rem;
 }
 
 .btn-primary {
+     padding: 4px 32px;
+     background-color: $c_background;
+     color: $c_primary;
+     border: 1px solid $c_primary;
+     border-radius: 5px;
+     transition: all .5s;
+     cursor: pointer;
+
+     &:hover {
+          background-color: $c_primary;
+          color: $c_background;
+          border: 1px solid $c_background;
+     }
+}
+
+.btn-secondary{
+     padding: 4px 32px;
+     background-color: $c_primary;
+     color: $c_background;
+     border: 1px solid $c_background;
+     border-radius: 5px;
+     transition: all .5s;
+     cursor: pointer;
+
+     &:hover {
+          background-color: $c_background;
+          color: $c_primary;
+          border: 1px solid $c_primary;
+     }
+}
+
+.logo {
+     a {
+         font-family: $fjosy_semibold;
+     text-decoration: none;
+
+     &:hover {
+          text-decoration: none;
+     } 
+     }
      
 }
