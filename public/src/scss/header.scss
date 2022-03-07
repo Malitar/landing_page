@@ -14,7 +14,7 @@ header{
           ul {
               display: flex; 
               list-style-type: none;
-              gap: 8px;
+              gap: 32px;
 
               a {
                    text-decoration: none;
@@ -25,9 +25,13 @@ header{
      .hero {
           display: flex;
           gap: 2rem;
+          margin: 6rem 0;
 
           .content-left {
                width: 40%;
+               button {
+                    margin-top: 16px;
+               }
           }
           .content-right{
                width: 60%;
