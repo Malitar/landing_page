@@ -41,7 +41,7 @@
                               <p>
                                    Vaporware live-edge etsy, XOXO art party authentic chillwave tumeric distillery mlkshk hammock keffiyeh tattooed YOLO. Roof party subway tile taxidermy keffiyeh letterpress craft beer PBR&B semiotics.
                               </p>
-                              <button>Sign up</button>
+                              <button class="btn-primary">Sign up</button>
                          </div>
                     </div>
                     <div class="content-right">
@@ -91,12 +91,31 @@
           </section>
           <section>
                <div class="block">
-                    <div class="placeholder"></div>
-               </div>
+                    <div class="container">
+                         <figure class="content-quote">
+
+                              <blockquote>Aesthetic bespoke skateboard sustainable bitters gluten-free celiac. Biodiesel flexitarian humblebrag quinoa plaid. Brunch salvia put a bird on it fashion axe.</blockquote>
+                              <figcaption div class="content-quote-author quote">
+                                   ~ wasd
+                              </figcaption>
+                         </figure>
+
+                    </div>
+
           </section>
           <section>
                <div class="block">
-                    <div class="placeholder"></div>
+                    <div class="container">
+                         <div class="cta">
+                              <div class="content-text">
+                                   <h3>Call to action! It's time!</h3>
+                                   <p>Sign up for our product by clicking that button right over there!</p>
+                              </div>
+                              <button class="btn-secondary">Sign up</button>
+                         
+                         </div>
+                    </div>
+                    
                </div>
           </section>
 

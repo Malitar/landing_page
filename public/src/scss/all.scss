@@ -11,7 +11,8 @@
 /* *********************
 *    Styling              *
 ********************* */
-@import 'basic.scss';
+@import 'ContentElements/basic.scss';
+@import 'ContentElements/elements.scss';
 @import 'typographie.scss';
 @import 'main.scss';
 @import 'header.scss';
